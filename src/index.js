@@ -49,5 +49,5 @@ new rpc_framework(
   10000
 ).start();
 
-client.login({ clientId : "YourID" })
+client.login({ clientId : "YourAppID" })
 .catch(console.error);
