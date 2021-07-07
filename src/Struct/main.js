@@ -32,7 +32,7 @@ class RPC {
            pid:  rpc.pid,
            activity : {
               timestamps: rpc.timestamps,
-              details : datails,
+              details : details,
               assets : {
                 large_image : large_image,
                 large_text : large_text,
