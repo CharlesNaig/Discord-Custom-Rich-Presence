@@ -1,7 +1,7 @@
-# Discord-Custom-Rich-Presence-
+# Discord-Custom-Rich-Presence
 Add a custom status to your Discord Profile.
 
-![Screenshot](https://raw.githubusercontent.com/NourEldienHE/Discord-bot-website-template/master/Screenshot.png)
+![Screenshot](https://cdn.discordapp.com/attachments/772843317100544012/862450268943810622/unknown.png)
 
 ## Getting Started
 
@@ -17,10 +17,8 @@ git clone https://github.com/Uraraka-Chan/Discord-Custom-Rich-Presence-.git
 
 Edit index.js data for customizing replace all of the data correctly.
 
-Create a .env file in outside src folder and type this
-```
-clientID="YOUR CLIENT ID"
-```
+For adding images you have to put the title of your images in your Application.
+![Assets](https://cdn.discordapp.com/attachments/772843317100544012/862449650967904263/unknown.png)
 
 Run index.js for starting your Custom Rich Presence.
 
