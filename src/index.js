@@ -27,7 +27,12 @@ new rpc_framework(
   "default",
   "Test RPC Small Text",
   // Buttons.
-  [],
+  [
+    {
+    label : "Test Button" ,
+    url : "https://saya.gg/invite"
+    }
+  ],
   // Interval will update the Presence this amount os Miliseconds.
   10000
 ).start();
