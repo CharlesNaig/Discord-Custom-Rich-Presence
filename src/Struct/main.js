@@ -28,7 +28,7 @@ class RPC {
          let small_image= rpc.checkArray(rpc.small_image);
          let small_text= rpc.checkArray(rpc.small_text);
         
-         client.request('SET_ACTIVITY', {
+         rpc.client.request('SET_ACTIVITY', {
            pid:  rpc.pid,
            activity : {
               timestamps: rpc.timestamps,
