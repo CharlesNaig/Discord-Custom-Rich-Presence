@@ -6,12 +6,12 @@ const client = new rpc.Client({ transport: 'ipc' });client, timestamps, details,
  * Data for the RPC Client.
  * @param {client} client 
  * @param {Object} timestamps
- * @param {string} [string{}] details
- * @param {string} [string{}] large_text
- * @param {string} [string{}] large_image
- * @param {string} [string{}] large_text
- * @param {string} [string{}] small_image
- * @param {string} [string{}] small_text 
+ * @param {string} [string[]] details
+ * @param {string} [string[]] large_text
+ * @param {string} [string[]] large_image
+ * @param {string} [string[]] large_text
+ * @param {string} [string[]] small_image
+ * @param {string} [string[]] small_text 
  * @param {Object[]} buttons
  * @param {number} interval
  */
