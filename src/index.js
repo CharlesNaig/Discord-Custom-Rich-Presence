@@ -29,7 +29,7 @@ new rpc_framework(
   // Buttons.
   [],
   // Interval will update the Presence this amount os Miliseconds.
-  20000
+  10000
 ).start();
 
 client.login({ clientId : "788233833731457105" })
