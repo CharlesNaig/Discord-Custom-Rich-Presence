@@ -33,6 +33,7 @@ class RPC {
                 small_text: small_text
               },
               buttons : this.buttons
+            }
           });
       }, this.interval);
     });
