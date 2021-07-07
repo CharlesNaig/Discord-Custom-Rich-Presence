@@ -15,7 +15,13 @@ Download or fork the repository.
 git clone https://github.com/Uraraka-Chan/Discord-Custom-Rich-Presence-.git
 ```
 
-Edit index.js data for customizing.
+Edit index.js data for customizing replace all of the data correctly.
+
+Create a .env file in outside src folder and type this
+```
+clientID="YOUR CLIENT ID"
+```
+
 Run index.js for starting your Custom Rich Presence.
 
 ## Built With
