@@ -5,28 +5,26 @@ Add a custom status to your Discord Profile.
 
 ## Getting Started
 
-Download or fork the repo to get started!
+Download or fork the repository to get started!
 
 ### Installing
 
-Download or fork the repo
+Download or fork the repository.
 
 ```
-git clone https://github.com/NourEldienHE/Discord-bot-website-template.git
+git clone 
 ```
 
-Open index.html and start to use the website 
+Edit index.js data for customizing.
+Run index.js for starting your Custom Rich Presence.
 
 ## Built With
 
-* [Bootstrap](https://getbootstrap.com/) - The web framework used
-* [Now-ui-kit](https://demos.creative-tim.com/now-ui-kit/index.html) - Dependency Management
+* [Discord.js](https://discord.js.org/#/) - Main Package.
+* [Discord-RPC](https://github.com/discord/discord-rpc) - Framework Used
 
 ## Authors
 
-[Nouridio](https://github.com/Nouridio)
+[Uraraka-Chan](https://github.com/Uraraka-Chan)
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
