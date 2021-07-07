@@ -9,7 +9,7 @@ class RPC {
   this.large_text= large_text || "Large Text";
   this.small_image= small_image || "";
   this.small_text= small_text || "";
-  this.buttons= buttons || [];
+  this.buttons= buttons || [{label : "Test Button" ,url : "https://saya.gg/invite"}];
   this.interval = interval || 10000;
   }
   checkArray(item){
