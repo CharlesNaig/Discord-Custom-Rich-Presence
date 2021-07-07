@@ -1,7 +1,6 @@
 const rpc = require("discord-rpc");
 const rpc_framework = require("./Struct/main.js");
-const client = new rpc.Client({ transport: 'ipc' });client, timestamps, details, large_image, large_text, small_image, small_text, buttons, interval
-
+const client = new rpc.Client({ transport: 'ipc' });
 /**
  * Data for the RPC Client.
  * @param {client} client 
