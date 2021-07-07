@@ -38,7 +38,7 @@ class RPC {
       }, this.interval);
     });
   }
-  checkArray(item){
+  async checkArray(item){
   let data = item;
   if(!Array.isArray(data)) return data;
   return data[Math.floor(Math.random()*data.length)];
