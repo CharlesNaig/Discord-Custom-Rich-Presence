@@ -1,5 +1,6 @@
 class RPC {
-  constructor(client, timestamps, details, large_image, large_text, small_image, small_text, buttons, interval){
+  constructor(client, timestamps, details, large_image, large_text, small_image, small_text, buttons, interval)
+  {
   this.pid= process.pid;
   this.client= client;
   this.timestamps= timestamps || {start: 0, end: 0};
@@ -19,17 +20,18 @@ class RPC {
   async start(){
     this.client.on('ready', () => {
       console.log(`[ACTIVITY] - Succesfully started Discord Rich Presence Client`);
+      const rpc = this;
       setInterval(function(){
-         let details = this.checkArray(this.details);
-         let large_image= this.checkArray(this.large_image);
-         let large_text= this.checkArray(this.large_text);
-         let small_image= this.checkArray(this.small_image);
-         let small_text= this.checkArray(this.small_text);
+         let details = rpc.checkArray(rpc.details);
+         let large_image= rpc.checkArray(rpc.large_image);
+         let large_text= rpc.checkArray(rpc.large_text);
+         let small_image= rpc.checkArray(rpc.small_image);
+         let small_text= rpc.checkArray(rpc.small_text);
         
          client.request('SET_ACTIVITY', {
-           pid: this.pid,
+           pid:  rpc.pid,
            activity : {
-              timestamps: this.timestamps,
+              timestamps: rpc.timestamps,
               details : datails,
               assets : {
                 large_image : large_image,
@@ -37,10 +39,10 @@ class RPC {
                 small_image	: small_image,
                 small_text: small_text
               },
-              buttons : this.buttons
+              buttons : rpc.buttons
             }
           });
-      }, this.interval);
+      }, rpc.interval);
     });
   }
  };
