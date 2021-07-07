@@ -23,6 +23,7 @@ class RPC {
       const rpc = this;
       setInterval(function(){
          let details = rpc.checkArray(rpc.details);
+        console.log(details)
          let large_image= rpc.checkArray(rpc.large_image);
          let large_text= rpc.checkArray(rpc.large_text);
          let small_image= rpc.checkArray(rpc.small_image);
