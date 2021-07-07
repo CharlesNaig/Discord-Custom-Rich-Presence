@@ -1,6 +1,8 @@
 const rpc = require("discord-rpc");
 const rpc_framework = require("./Struct/main.js");
 const client = new rpc.Client({ transport: 'ipc' });
+require('dotenv').config({ path: '../.env' });
+
 /**
  * Data for the RPC Client.
  * @param {client} client 
