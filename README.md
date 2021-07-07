@@ -12,7 +12,7 @@ Download or fork the repository to get started!
 Download or fork the repository.
 
 ```
-git clone 
+git clone https://github.com/Uraraka-Chan/Discord-Custom-Rich-Presence-.git
 ```
 
 Edit index.js data for customizing.
