@@ -32,5 +32,5 @@ new rpc_framework(
   20000
 ).start();
 
-client.login({ clientId : process.env.clientID })
+client.login({ clientId : "788233833731457105" })
 .catch(console.error);
