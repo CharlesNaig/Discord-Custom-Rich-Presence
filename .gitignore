@@ -6,14 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# Dependency directories
-node_modules/
-
 # Optional eslint cache
 .eslintcache
 
 .yarn-integrity
-
-.idea/
 
 .env
