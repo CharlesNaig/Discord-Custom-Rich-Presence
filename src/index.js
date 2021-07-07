@@ -19,12 +19,12 @@ require('dotenv').config({ path: '../.env' });
 new rpc_framework(
   // Leave the client as it is.
   client,           
-  {start: 0, end: 0},
+  {start: 1, end: 1},
   // Details and Text are strings but can also be changed to an Array so they will be randomized each interval.
   "Test RPC Details",
-  "https://discordapp.com/assets/322c936a8c8be1b803cd94861bdfa868.png",
+  "default",
   "Test RPC Large Text",
-  "https://discordapp.com/assets/322c936a8c8be1b803cd94861bdfa868.png",
+  "default",
   "Test RPC Small Text",
   // Buttons.
   [],
