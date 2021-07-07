@@ -3,9 +3,9 @@ class RPC {
   {
   this.pid= process.pid;
   this.client= client;
-  this.timestamps= timestamps || {start: 0, end: 0};
+  this.timestamps= timestamps || {start: 1, end: 1};
   this.details= details || "Details Text";
-  this.large_image= large_image || "https://discordapp.com/assets/322c936a8c8be1b803cd94861bdfa868.png";
+  this.large_image= large_image || "default";
   this.large_text= large_text || "Large Text";
   this.small_image= small_image || "";
   this.small_text= small_text || "";
