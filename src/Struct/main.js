@@ -11,6 +11,11 @@ class RPC {
   this.buttons= buttons || [];
   this.interval = interval || 10000;
   }
+  async checkArray(item){
+    let data = item;
+    if(!Array.isArray(data)) return data;
+    return data[Math.floor(Math.random()*data.length)];
+  }
   async start(){
     this.client.on('ready', () => {
       console.log(`[ACTIVITY] - Succesfully started Discord Rich Presence Client`);
@@ -37,11 +42,6 @@ class RPC {
           });
       }, this.interval);
     });
-  }
-  async checkArray(item){
-  let data = item;
-  if(!Array.isArray(data)) return data;
-  return data[Math.floor(Math.random()*data.length)];
   }
  };
 
