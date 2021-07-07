@@ -1,5 +1,5 @@
 class RPC {
-  constructor(client, timestamps, details, large_image, large_text){
+  constructor(client, timestamps, details, large_image, large_text, small_image, small_text, buttons, interval){
   this.pid= process.pid;
   this.client= client;
   this.timestamps= timestamps || {start: 0, end: 0};
