@@ -26,7 +26,6 @@ Run index.js for starting your Custom Rich Presence.
 
 * [Discord.js](https://discord.js.org/#/) - Main Package.
 * [Discord-RPC](https://github.com/discord/discord-rpc) - Framework Used
-*
 
 ## Authors
 
