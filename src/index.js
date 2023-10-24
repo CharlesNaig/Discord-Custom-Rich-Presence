@@ -39,7 +39,7 @@ new rpc_framework(
   
   [
     {
-    label : "Test Button" ,         // Title of the Button.
+    label : "Test Buttons" ,         // Title of the Button.
     url : "https://saya.gg/invite"  // Place where button will take you.
     }
   ],
